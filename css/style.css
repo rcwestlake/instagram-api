@@ -132,6 +132,7 @@ hr {
 
 #wrapper1,
 #wrapper2,
-#wrapper3 {
+#wrapper3,
+#wrapper4 {
     cursor: pointer;
 }
