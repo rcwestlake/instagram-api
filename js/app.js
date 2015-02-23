@@ -8,6 +8,12 @@ $(document).ready(function() {
     
     /*press button to show photos*/
     
+    $('#refresh').click(function() {
+        getData("#wrapper1");
+        getData("#wrapper2");
+        getData("#wrapper3");
+        getData("#wrapper4");
+    })
     
     $('#searchPhotos').click(function() {
         $(this).fadeOut('fast');
