@@ -83,3 +83,7 @@ footer {
 hr {
     width: 90%;   
 }
+
+.photoGrid {
+    float: left;
+}
