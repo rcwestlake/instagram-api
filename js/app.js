@@ -39,7 +39,6 @@ $(document).ready(function() {
                 cache: false,
                 url: "https://api.instagram.com/v1/media/popular?client_id=85fb603fb11f45a385651e0f2e209bb1",
                 success: function(data) {
-                    photoData = data;
                     main(data, div);
                 }
             });

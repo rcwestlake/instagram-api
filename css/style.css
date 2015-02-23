@@ -78,12 +78,17 @@ button {
     height: 55px;
     font-size: 1.2em;
     display: block;
-    margin: 1em auto;
+    margin: 3em auto;
     color: white;
     margin-top: 5px;
     cursor: pointer;
     display: none;
     
+}
+
+#buttonWrapper {
+    width: 100%;
+    text-align: center;
 }
 
 footer {
