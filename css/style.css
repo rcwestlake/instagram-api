@@ -114,7 +114,7 @@ hr {
 
 .photoGrid {
     float: left;
-    padding-right: 25px;
+    padding-left: 30px;
 }
 
 #userName {
@@ -135,4 +135,6 @@ hr {
 #wrapper3,
 #wrapper4 {
     cursor: pointer;
+    margin-left: 15px;
+    
 }

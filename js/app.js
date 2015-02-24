@@ -16,8 +16,8 @@ $(document).ready(function() {
     })
     
     $('#searchPhotos').click(function() {
-        $(this).fadeOut('fast');
-        $('#intro-header').fadeOut('fast');
+        $(this).hide();
+        $('#intro-header').hide();
         $('#photoHeader').fadeIn('fast');
         $('#ps').fadeIn('fast');
         $('#refresh').fadeIn('fast');
